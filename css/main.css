@@ -1,0 +1,138 @@
+/* line 2, ../sass/main.scss */
+body .chat-overview {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  grid-template-rows: 100vh;
+}
+/* line 6, ../sass/main.scss */
+body .chat-overview .primary-nav {
+  background-color: #f8f8f8;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+/* line 10, ../sass/main.scss */
+body .chat-overview .primary-nav .profile-section {
+  padding: 40px;
+}
+/* line 12, ../sass/main.scss */
+body .chat-overview .primary-nav .profile-section .profile-img {
+  margin: auto;
+  width: 175px;
+  height: 175px;
+  border-radius: 175px;
+  background-color: #c0c0c0;
+  margin-bottom: 40px;
+}
+/* line 20, ../sass/main.scss */
+body .chat-overview .primary-nav .profile-section .profile-name {
+  height: 25px;
+  border-radius: 40px;
+  background-color: #c0c0c0;
+}
+/* line 26, ../sass/main.scss */
+body .chat-overview .primary-nav .friend-section {
+  background-color: #e0e0e0;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+}
+/* line 31, ../sass/main.scss */
+body .chat-overview .primary-nav .friend-section .scroll-section {
+  position: relative;
+  height: 100%;
+}
+/* line 34, ../sass/main.scss */
+body .chat-overview .primary-nav .friend-section .scroll-section .friend {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 39, ../sass/main.scss */
+body .chat-overview .primary-nav .friend-section .scroll-section .friend .friend-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #c0c0c0;
+  margin: auto;
+}
+/* line 46, ../sass/main.scss */
+body .chat-overview .primary-nav .friend-section .scroll-section .friend .friend-meta {
+  padding: 20px;
+}
+/* line 48, ../sass/main.scss */
+body .chat-overview .primary-nav .friend-section .scroll-section .friend .friend-meta .friend-name {
+  height: 15px;
+  width: 60%;
+  border-radius: 40px;
+  background-color: #c0c0c0;
+  margin-bottom: 10px;
+}
+/* line 55, ../sass/main.scss */
+body .chat-overview .primary-nav .friend-section .scroll-section .friend .friend-meta .last-message {
+  height: 15px;
+  width: 85%;
+  border-radius: 40px;
+  background-color: #c0c0c0;
+}
+/* line 66, ../sass/main.scss */
+body .chat-overview .chat-section {
+  display: grid;
+  grid-template-rows: 1fr 75px;
+  background-color: #e0e0e0;
+  position: relative;
+}
+/* line 71, ../sass/main.scss */
+body .chat-overview .chat-section .chat-window {
+  background-color: #f8f8f8;
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+}
+/* line 76, ../sass/main.scss */
+body .chat-overview .chat-section .chat-window .scroll-section {
+  position: relative;
+  height: 100%;
+}
+/* line 79, ../sass/main.scss */
+body .chat-overview .chat-section .chat-window .scroll-section .chat-bubble {
+  height: 100px;
+  border-radius: 10px;
+  background-color: #c0c0c0;
+  margin-bottom: 10px;
+}
+/* line 85, ../sass/main.scss */
+body .chat-overview .chat-section .chat-window .scroll-section .chat-bubble-friend {
+  height: 100px;
+  border-radius: 10px;
+  background-color: #e2e2e2;
+  margin-bottom: 10px;
+}
+/* line 90, ../sass/main.scss */
+body .chat-overview .chat-section .chat-window .scroll-section .chat-bubble-friend:nth-last-child(1) {
+  margin-bottom: 0;
+}
+/* line 96, ../sass/main.scss */
+body .chat-overview .chat-section .user-input-section {
+  position: relative;
+  z-index: 10;
+  background-color: #e0e0e0;
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  padding: 10px;
+}
+/* line 103, ../sass/main.scss */
+body .chat-overview .chat-section .user-input-section .user-input {
+  border-radius: 40px;
+  background-color: #c0c0c0;
+  margin-right: 5px;
+}
+/* line 109, ../sass/main.scss */
+body .chat-overview .chat-section .user-input-section .user-actions .user-send {
+  display: inline-block;
+  border-radius: 40px;
+  background-color: #c0c0c0;
+  margin-left: 5px;
+  width: 45%;
+  height: 100%;
+}
